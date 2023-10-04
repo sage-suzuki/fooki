@@ -1,0 +1,59 @@
+.navbar {
+  z-index: 1; /* Adjust the height as needed */
+< style >: root {
+  --base-font-size: 14px;
+  --heading-font-font-family: 'PT Serif', serif; /* Updated font family */
+  --heading-font-font-style: normal;
+  --heading-font-font-weight: 400;
+  --heading-font-text-transform: none;
+  --heading-font-letter-spacing: 0em;
+  --heading-font-line-height: 1.4em;
+  --body-font-font-family: 'Minion Pro', serif; /* Updated font family */
+  --body-font-font-style: normal;
+  --body-font-font-weight: 400;
+  --body-font-text-transform: none;
+  --body-font-letter-spacing: .02em;
+  --body-font-line-height: 1.8em;
+  --meta-font-font-family: 'Minion Pro', serif; /* Updated font family */
+  --meta-font-font-style: normal;
+  --meta-font-font-weight: 500;
+  --meta-font-text-transform: none;
+  --meta-font-letter-spacing: .01em;
+  --meta-font-line-height: 1em;
+  --heading-1-size: 6.2rem;
+  --heading-1-size-value: 6.2;
+  --heading-2-size: 3.5rem;
+  --heading-2-size-value: 3.5;
+  --heading-3-size: 2.2rem;
+  --heading-3-size-value: 2.2;
+  --heading-4-size: 1.6rem;
+  --heading-4-size-value: 1.6;
+  --large-text-size: 1.5rem;
+  --large-text-size-value: 1.5;
+  --normal-text-size: 1.1rem;
+  --normal-text-size-value: 1.1;
+  --small-text-size: 1rem;
+  --small-text-size-value: 1;
+  --normal-meta-size: 1.1rem;
+}
+
+  /* Apply custom fonts to various elements */
+
+  body, p, ul, li, a {
+    font-family: var(--body-font-font-family);
+    font-weight: var(--body-font-font-weight);
+    font-size: var(--normal-text-size);
+    line-height: var(--body-font-line-height);
+    letter-spacing: var(--body-font-letter-spacing);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--heading-font-font-family);
+    font-weight: var(--heading-font-font-weight);
+    line-height: var(--heading-font-line-height);
+    letter-spacing: var(--heading-font-letter-spacing);
+  }
+
+  /* Add more styles as needed for different elements */
+< / style >
+}
